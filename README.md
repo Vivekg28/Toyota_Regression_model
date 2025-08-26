@@ -45,9 +45,37 @@ The main goal is to develop a model that can accurately predict car prices. This
   <li>R² Score: 0.89</li>
 </ul>
 
-<p>
-These metrics indicate the model's ability to predict car prices accurately, with minimal error.
-</p>
+<hr>
+
+<h2>📊 Final Summary</h2>
+<ul>
+  <li><b>Polynomial Regression:</b>
+    <ul>
+      <li>R² Score: 0.95</li>
+      <li>Interpretation: Approximately 95% of the variance in car prices is explained by the predictors, indicating a strong relationship between the features and car prices.</li>
+    </ul>
+  </li>
+  <li><b>Multiple Linear Regression:</b>
+    <ul>
+      <li>R² Score: 0.93</li>
+      <li>Interpretation: Approximately 93% of the variance in car prices is explained by the predictors, indicating a strong relationship between the features and car prices.</li>
+    </ul>
+  </li>
+  <li><b>Decision Tree Regression:</b>
+    <ul>
+      <li>R² Score: 0.94</li>
+      <li>Interpretation: Around 94% of the variance in car prices is explained by the predictors, suggesting a strong relationship, slightly better than multiple linear regression.</li>
+    </ul>
+  </li>
+  <li><b>Random Forest Regression:</b>
+    <ul>
+      <li>R² Score: 0.96</li>
+      <li>Interpretation: 96% of the variance in car prices is explained by the predictors, showing the strongest relationship among all the models tested.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><b>Overall Conclusion:</b> Best Model: <b>Random Forest Regression</b>, as it achieved the highest R² score (0.96), indicating that it best captures the variance in car prices among the models applied.</p>
 
 <hr>
 
